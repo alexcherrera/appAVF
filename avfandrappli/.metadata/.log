@@ -1,0 +1,37 @@
+!SESSION 2012-10-05 22:34:27.902 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_35
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/alexcherrera/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/alexcherrera/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2012-10-05 22:35:25.132
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-10-05 22:41:16.375
+!MESSAGE Failed to load properties file for project 'College_Organizer'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:41:48.118
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY org.eclipse.ui 2 2 2012-10-05 22:42:17.424
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:45:40.598
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:46:09.966
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:46:20.689
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:46:22.999
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:46:33.585
+!MESSAGE Fatal error: No API database found at null
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-10-05 22:48:25.480
+!MESSAGE Fatal error: No API database found at null
