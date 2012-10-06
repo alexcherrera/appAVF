@@ -1,0 +1,42 @@
+<!--
+	Alexander Herrera
+	AVF 1209
+	Video/Media API page HTML
+	Not using any jQuery or JQM
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<!--Meta Tags-->
+		<meta charset ="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="cleartype" content="on">
+	<!--Page Title-->
+		<title>Launch Page</title>	
+	<!--Link CSS Style Sheet-->
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<!--Modernizr-->
+		<script src="js/libs/modernizr.custom.min.js"></script>
+	</head>
+	<body id="videoMedia">
+		<div id="weekOneVid">
+			<video id="videoReflec1"  width="320" height="240" controls>
+				<source id="sourceWk1mp4" src="video/Reflection_AVF.mp4" type="video/mp4"/>
+				<source id="sourceWk1webm" src="video/Reflection_AVF.webm" type="video/webm" onclick="this.play();"/>
+			</video>
+		</div>
+		<div id="weekTwoVid">
+			<video id="videoReflec2"  width="320" height="240" controls>
+				<source id="sourceWk1mp4" src="video/Reflection2_AVF.mp4" type="video/mp4"/>
+				<source id="sourceWk1webm" src="video/Reflection2_AVF.mp4" type="video/webm; codecs="vp8, vorbis"" onclick="this.play();"/>
+			</video>
+		</div>
+		<a href="index.html" id="backbtn">Back</a>
+		
+
+		</div>
+		<!--JavaScript & JQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/launchmain.js"></script>
+	</body>
+</html>

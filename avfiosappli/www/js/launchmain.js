@@ -9,7 +9,9 @@ function onSuccess(position) {
 	var element = document.getElementById('geoinputText');
 	var elementObj = new Object ();
 	elementObj.lat = position.coords.latitude;
+	
 	elementObj.lon = position.coords.longitude;
+	console.log(elementObj);
 	element.innerHTML =
 	'Latitude: '           + position.coords.latitude              + '<br />' +
 	'Longitude: '          + position.coords.longitude             + '<br />' +
@@ -19,21 +21,23 @@ function onSuccess(position) {
 	'Heading: '            + position.coords.heading               + '<br />' +
 	'Speed: '              + position.coords.speed                 + '<br />' +
 	'Timestamp: '          +                                   position.timestamp          + '<br />';
-	/*var latlon = new google.maps.LatLng(lat, lon);
+	/*var latlon = new google.maps.LatLng(elementObj[0], elementObj[1]);
     var mapholder=document.getElementById('geoinputMap');
     mapholder.style.height='250px';
-    mapholder.style.width='500px';
-	console.log(elementObj);*/
+    mapholder.style.width='500px';*/
+	//console.log(elementObj);
 	function initialize() {
 		console.log("opt");
         var mapOptions = {
-		center: new google.maps.LatLng(-34.397, 150.644),
-		zoom: 8,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
+			center: new google.maps.LatLng(elementObj[0], elementObj[1]),
+			zoom: 8,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        var map = new google.maps.Map(document.getElementById("map_canvas"),
+        var map = new google.maps.Map(document.getElementById("geoinputMap"),
 									  mapOptions);
 	}
+	initialize();
+	
 }
 
 // onError Callback receives a PositionError object
